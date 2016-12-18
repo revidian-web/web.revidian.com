@@ -1,0 +1,47 @@
+baseurl: "https://web.revidian.com/"
+title: "Revidian Web"
+languageCode: "en-us"
+theme: "rweb-2023"
+
+googleAnalytics: ""
+
+enableEmoji: true
+
+summaryLength: 30
+
+imaging:
+  quality: 100
+  resampleFilter: "Lanczos"
+
+params:
+  description: "This is my (Ricardo N Feliciano) personal website. A place for me to blog and share my projects."
+
+blackfriday:
+  hrefTargetBlank: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: "Blog"
+      url:  "/blog/"
+      weight: 9
+    - name: "Newsletter"
+      url:  "/newsletter/"
+      weight: 10
+    - name: "Contact"
+      url:  "/contact/"
+      weight: 20
+  social:
+    - name: "github"
+      url: "https://github.com/RepoWarden"
+      weight: 10
+    - url: "https://twitter.com/FelicianoTech"
+      name: "twitter"
+      weight: 20
+    - name: "linkedin"
+      url: "https://www.linkedin.com/company/89976451/admin/"
+      weight: 30
