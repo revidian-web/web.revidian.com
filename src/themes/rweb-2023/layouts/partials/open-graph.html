@@ -2,8 +2,10 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-{{ with .Params.feature }}
-	<meta property="og:image" content="{{ printf "/assets/img/feature/%s" . | absURL }}" />
+{{ if .Params.feature }}
+	<meta property="og:image" content="{{ printf "/assets/img/feature/%s" .Params.feature | absURL }}" />
+{{ else if and ( eq .Section "blog" ) ( eq .Kind "page" ) }}
+	<meta property="og:image" content="{{ partial "gen-image-url" . }}" />
 {{ else }}
 	<meta property="og:image" content="{{ "/assets/img/feature/default.png" | absURL }}" />
 {{ end }}
