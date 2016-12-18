@@ -1,0 +1,34 @@
+baseurl: "https://web.revidian.com/"
+title: "Revidian Web"
+languageCode: "en-us"
+theme: "rweb-2023"
+
+googleAnalytics: ""
+
+enableEmoji: true
+
+summaryLength: 30
+
+imaging:
+  quality: 100
+  resampleFilter: "Lanczos"
+
+params:
+  description: "This is my (Ricardo N Feliciano) personal website. A place for me to blog and share my projects."
+
+blackfriday:
+  hrefTargetBlank: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: "Newsletter"
+      url:  "/newsletter/"
+      weight: 10
+    - name: "Contact"
+      url:  "/contact/"
+      weight: 20
