@@ -69,6 +69,11 @@ body > footer{
 //-------------------------------------
 // Sections
 //-------------------------------------
+
+body.section-docs{
+	@import "section-docs";
+}
+
 body.section-blog{
 	@import "section-blog";
 }
