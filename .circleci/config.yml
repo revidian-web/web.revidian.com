@@ -50,4 +50,4 @@ jobs:
           name: "Deploy to Revidian Cloud"
           command: |
             echo 'web0.atl.revidian.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBE16slz1okRPeUhxIpzBCn9rHqjk51ylxEYlYXvblswcxOQ0rPyAX6N8Bd2pnsh99xce/jaX2KJHPLPCc+zAXTg=' >> ~/.ssh/known_hosts
-            rsync -va --delete src/public/ root@web0.atl.revidian.net:/gfs-vols/static-vol/repowarden/www/public_html
+            rsync -va --delete src/public/ root@web0.atl.revidian.net:/gfs-vols/static-vol/revidian-web/www/public_html
