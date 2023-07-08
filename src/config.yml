@@ -26,22 +26,9 @@ markup:
 
 menu:
   main:
-    - name: "Blog"
-      url:  "/blog/"
-      weight: 9
     - name: "Newsletter"
       url:  "/newsletter/"
       weight: 10
     - name: "Contact"
       url:  "/contact/"
       weight: 20
-  social:
-    - name: "github"
-      url: "https://github.com/RepoWarden"
-      weight: 10
-    - url: "https://twitter.com/FelicianoTech"
-      name: "twitter"
-      weight: 20
-    - name: "linkedin"
-      url: "https://www.linkedin.com/company/89976451/admin/"
-      weight: 30
