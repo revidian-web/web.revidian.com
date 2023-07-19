@@ -1,5 +1,5 @@
 ---
-title: "Celebrating Docs and Tech Writers"
+title: "Celebrating Docs and Tech Writers and blob and chira longer words oka?"
 author: FelicianoTech
 date: 2023-06-19T15:00:00-04:00
 categories:
