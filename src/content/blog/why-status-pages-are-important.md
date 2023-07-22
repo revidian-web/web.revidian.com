@@ -18,4 +18,12 @@ categories:
   - shows your track record when your uptime is good
 
 
-Hey
+Many developers, solopreneurs, and small teams have heard of and even come across status pages out in the wild.
+How many of you have one for your own project or business?
+My take? Not enough and this is a mistake.
+
+
+## What is a Status Page?
+
+Before I go into why status pages are important, it would be wise to cover what they are.
+In the world of SaaS (Software-as-a-Service)
