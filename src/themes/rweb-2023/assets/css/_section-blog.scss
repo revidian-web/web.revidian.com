@@ -41,6 +41,11 @@ main.single{
 	article{
 		padding-top: 1rem;
 		padding-bottom: 3rem;
+
+		figure img{
+			border-radius: 10px;
+			max-width: 100%;
+		}
 	}
 	
 	.feature{
